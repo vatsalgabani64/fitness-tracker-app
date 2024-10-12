@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles below this line */
+
+body {
+  @apply bg-gray-100 text-gray-800; /* Use Tailwind's utility classes */
+}
+
+h1, h2 {
+  @apply font-sans; /* Use a clean font, or customize with your own font */
+}
+
+/* Optional: Add custom hover effects */
+button:hover {
+  @apply bg-blue-500; /* Change button background on hover */
+}
+
+/* Sidebar styles */
+.sidebar {
+  @apply bg-gray-800 text-white shadow-lg; /* Styling for the sidebar */
+}
+
+/* Navbar styles */
+.navbar {
+  @apply bg-gradient-to-r from-blue-600 to-blue-800 text-white shadow-lg; /* Navbar styles */
+}
+
+/* Workout Logs item styling */
+.workout-log-item {
+  @apply bg-white p-3 rounded-lg shadow hover:shadow-lg transition duration-200; /* Workout logs item */
+}

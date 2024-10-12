@@ -1,0 +1,47 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Firebase cache and settings
+.firebase
+
+# Production build
+/build
+/out
+
+# Firebase Hosting config (the public directory should not be ignored)
+.firebase/
+firebase-debug.log
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# VS Code settings
+.vscode/
+
+# MacOS-specific files
+.DS_Store
+
+# ESLint cache
+.eslintcache
+
+# Webpack output
+/dist
+
+# IDE specific files
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.log
